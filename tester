@@ -1,1 +1,18 @@
+package com.set;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class tester {
+
+		public static void main(String[] args) {
+			List<Integer> space = new ArrayList<>();
+			space.add(11);
+			space.add(2);
+			space.add(2);
+			space.add(8);
+			System.out.println(space);
+		}
+			/*list*/
+}
 
