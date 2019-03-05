@@ -1,0 +1,19 @@
+import java.util.HashSet;
+import java.util.Set;
+/*輔仁英語自學中心:以完成自學章節，獲得自學點數不重複計點*/
+public class testexample {
+		public static void main(String[] args) {
+			Set set=new HashSet();    
+			/*觀看線上學習的紀錄*/
+			String s1=new String("Chapter1-Hello my classmate.");    
+			String s2=new String("Chapter2-The subject I learn.");
+			String s3=new String("Chapter3-How's the weather.");    
+			String s4=new String("Chapter3-How's the weather.");
+
+			set.add(s1);    
+			set.add(s2);    
+			set.add(s3);    
+			set.add(s4);
+			System.out.println(set.size()+"點");/*獲得的點數*/
+	}
+	}
