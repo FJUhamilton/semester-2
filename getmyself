@@ -1,0 +1,15 @@
+ public static void main(String[] args) {
+				 Random random = new Random(20);
+			 
+				 Map<Integer,Integer> map =new HashMap<>();
+				 for(int i = 0; i < 20; i++) {
+					 int a =0 ;
+					 map.put(i,a);
+		 }
+				 for(int i = 0; i < 10000; i++) {
+					 int r = random.nextInt(20);
+					 Integer times = map.get(r);
+					 map.put(r,times+1);
+							}
+				 System.out.println(map);
+	 }
