@@ -1,0 +1,20 @@
+	public static void main(String[] args) {
+		Map<String,Integer> map =new HashMap<>();
+		
+		while(true) {
+			System.out.println("Please enter item(Enter Q to quit):");
+	   	    Scanner it= new Scanner(System.in);
+			String item = it.nextLine();
+			if(item.equals("Q")) {
+				break;
+			}
+			else {
+	   	    System.out.println("Please enter  number:");
+	   	    Scanner n= new Scanner(System.in);	 	
+	   	    int number = n.nextInt() ;
+	   	    map.put(item, number);
+	   	    System.out.println("購買清單:(種類,數量)"+map);
+			}
+	   	         }
+		    }
+	}
